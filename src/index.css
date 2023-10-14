@@ -10,5 +10,16 @@
 
 html,
 body {
+  font-family: 'Rubik', sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* section {
+  padding: 50px 120px;
+} */
+
+header{
+  background-image: url('./assets/hero-image.svg');
+  background-size: cover;
 }

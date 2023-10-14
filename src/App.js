@@ -1,20 +1,20 @@
-// local imports
-import Care from "./views/Care";
-import Footer from "./views/Footer";
-import Hero from "./views/Hero";
-import Products from "./views/Products";
-import Reference from "./views/Reference";
-import Services from "./views/Services";
+// import components 
+import Header from "./components/Header";
+import Payment from "./components/Payment";
+import Shop from "./components/Shop";
+import ImageSection from "./components/ImageSection";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
-      {/* <Hero /> */}
-      {/* <Services /> */}
-      {/* <Products /> */}
-      {/* <Reference /> */}
-      {/* <Care /> */}
-      {/* <Footer /> */}
+      <Header />
+      <Payment />
+      <Shop />
+      <ImageSection />
+      <About />      
+      <Contact />      
     </>
   );
 }

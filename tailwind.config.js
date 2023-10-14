@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -8,6 +9,7 @@ module.exports = {
         fontBlack: "#081323",
         fontGray: "#828282",
         overlay: "rgba(0, 0, 0, 0.30)",
+        green: '#36b789',
       },
       screens: {
         xs: "550px",
